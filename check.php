@@ -61,7 +61,7 @@ foreach ($certs as $cert) {
     echo $read;
 }
 if (empty($output)) {
-	printf("<pre>Invalid domain/domain does not exist.</pre>");
+	printf("<pre>There was an error with this domain.</pre>");
 }else{
 	printf("<pre>\n%s\n</pre>", $output);
 }
